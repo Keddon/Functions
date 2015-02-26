@@ -3,10 +3,7 @@
  * Functions
  */
 
-
-function outptMsg(){
-    console.log("Hello World");
-}
+var width = 5;
 
 function calcArea(){
     var width = 20;
@@ -15,5 +12,6 @@ function calcArea(){
     console.log(area);
 }
 
-
+console.log(width);
 calcArea();
+console.log(width);
